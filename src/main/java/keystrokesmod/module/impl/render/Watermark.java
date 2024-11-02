@@ -82,13 +82,13 @@ public class Watermark extends Module {
                 String text = "";
                 switch ((int) watermarkText.getInput()) {
                     case 0:
-                        text = "§r§f§lRaven §bX§9D §7";
+                        text = "Cold";
                         break;
                     case 1:
                         text = customName;
                         break;
                     case 2:
-                        text = "§r§f§lRaven§9Sense §rFPS:" + Minecraft.getDebugFPS() + " §r";
+                        text = "§r§f§lcold§9sense§rFPS:" + Minecraft.getDebugFPS() + " §r";
                         break;
                 }
 
